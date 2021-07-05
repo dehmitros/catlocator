@@ -17,4 +17,3 @@ for x, y, w, h in faces:
 
 # save image
 status = cv2.imwrite('C://xampp//htdocs//result.png', img)
-cv2.waitKey()

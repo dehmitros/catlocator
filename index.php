@@ -6,6 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CatLocator69420</title>
+	<style>
+		#Sidenav a {
+        position: absolute;
+        left: -850px;
+        transition: 1s;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+      }
+      
+      #Sidenav a:hover {
+        left: 0;
+      }
+      
+      #contact {
+        top: 310px;
+        background-color: transparent
+      }
+	</style>
 </head>
 	<body background="bg.png" >
 		<center>
@@ -17,22 +39,39 @@
 				<br>
 				<p style="color:white; font-family: Arial; text-align:center"> CatLocator 69420 is a website that locates and shows cats in an image. "Why though?" I hear you ask. Well, why not?</p>
 				<br>
-				<h2 style="color:orange; font-family: Arial; text-align:center"> How do you use the website? </h2>
-				<br>
-		<center><img src="https://i.imgur.com/mX5xaHT.png" alt="header" width="900" height="100"></center>
-		
+
+				<div id="Sidenav" class="sidenav">
+  				<a href="#" id="contact"><img src="tooltips.png"></a>
+				</div>
+				<br><br><br>
+				<center><img class="a" src="https://art.pixilart.com/4b680819d6447f3.gif" alt="nyancat" width="512" height="288"></center>
 	<br>
 	<!--upload photo-->
 	<center>
-	<div class="upload-btn-wrapper">
-	<button class="btn">Choose picture</button>
-	<form action="" enctype="multipart/form-data" method="post">
-	<input id="file" name="file" type="file" />
-	</div>
-	<div class="upload-btn-wrapper">
-	<a href="#"><button class="btn" id="Submit" name="submit" type="submit" value="Submit picture">Upload!</button></a>
-	</div>
-		</form>
+		<div class="upload-btn-wrapper">
+			<img src="point1.png" width="20" height="20">  <button class="btn">Choose picture</button>
+				<form action="" enctype="multipart/form-data" method="post">
+					<input id="file" name="file" type="file" />
+		</div>  
+		<div class="upload-btn-wrapper">
+		<button class="btn" id="Submit" name="submit" type="submit" value="Submit picture">Upload!</button>
+		</div>
+				</form>
+				<br>
+		<div class="upload-btn-wrapper">
+		<img src="point1.png" width="20" height="20">  <button class="btn" id='script' name="scriptbutton" value="Run Script" onclick="goPython()">Run Script</button>
+				<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+				<script>
+					function goPython(){
+						$.ajax({
+						url: "cat face detection.py",
+						context: document.body
+						}).done(function() {
+						alert('finished python script');;
+						});
+					}
+				</script>
+		</div>
 	</center>
 	<?php
 
@@ -69,23 +108,15 @@
 
 
 	<!--action box-->
-	<center><button class="btn" id='script' name="scriptbutton" value="Run Script" onclick="goPython()">Run Script</button></center>
-
-	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-	<script>
-		function goPython(){
-			$.ajax({
-			url: "cat face detection.py",
-			context: document.body
-			}).done(function() {
-			alert('finished python script');;
-			});
-		}
-	</script>
 	
-	<p style="text-align:center"><a href="result.html"><b>Show the results page!</b></a></p>
-	<p style="text-align:center"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><b>Here is a link for a video showcase of the site working.</b></a></p></div>
+	<center>
+	<br>
+	<div class="holder" style="display: table; margin: auto">
+	<a href="result.html"><b>Show the results page!</b></a>
+	<br><br>
+	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><b>Here is a link for a video showcase of the site working.</b></a>
+	</center>
+	</div>
 	<!--action box end-->
  
 	<br>
@@ -102,8 +133,6 @@
 	<!--Snake Game Stop-->
 
 	<br>
-
-  		<center><img class="a" src="https://art.pixilart.com/4b680819d6447f3.gif" alt="nyancat" width="512" height="288"></center>
 	
 	<br>
 				
@@ -145,5 +174,6 @@
 			</div>
 		</div>
 		<!--Footer end-->
+
 </body>
 </html> 
