@@ -69,8 +69,6 @@
 
 
 	<!--action box-->
-	<div class="holder" style="display: table; margin: auto"><p style="text-align:center"><a href="cat face detection.py" target="_blank"><b>Redirect for the script</b></a></p>
-
 	<center><button class="btn" id='script' name="scriptbutton" value="Run Script" onclick="goPython()">Run Script</button></center>
 
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -86,7 +84,6 @@
 		}
 	</script>
 	
-
 	<p style="text-align:center"><a href="result.html"><b>Show the results page!</b></a></p>
 	<p style="text-align:center"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><b>Here is a link for a video showcase of the site working.</b></a></p></div>
 	<!--action box end-->
