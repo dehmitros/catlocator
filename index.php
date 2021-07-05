@@ -45,6 +45,9 @@
 				</div>
 				<br><br><br>
 				<center><img class="a" src="https://art.pixilart.com/4b680819d6447f3.gif" alt="nyancat" width="512" height="288"></center>
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+				<script src="konami.js"></script>
 	<br>
 	<!--upload photo-->
 	<center>
