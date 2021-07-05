@@ -87,11 +87,6 @@
 	</script>
 	
 
-
-
-
-
-
 	<p style="text-align:center"><a href="result.html"><b>Show the results page!</b></a></p>
 	<p style="text-align:center"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><b>Here is a link for a video showcase of the site working.</b></a></p></div>
 	<!--action box end-->
