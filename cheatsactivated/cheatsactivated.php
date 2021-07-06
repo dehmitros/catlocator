@@ -32,27 +32,27 @@
 	<body background="/imgs/bg.png" >
 		<center>
 			<h1>
-				<img src="/imgs/header.png" alt="header" width="1600" height="248"></h1>
+				<img src="/imgs/header2.png" alt="header" width="1600" height="248"></h1>
 		</center>
 				<a href="#"></a>
 				<h2 style="color:red; font-family: Arial; text-align:center"> UPDATE! Everything works. Please ignore the warning when reloading the page.</h2>
 				<br>
-				<p style="color:white; font-family: Arial; text-align:center"> CatLocator 69420 is a website that locates and shows cats in an image. "Why though?" I hear you ask. Well, why not?</p>
+				<p style="color:white; font-family: Arial; text-align:center"> DogLocator 69420 is a website that locates and shows dogs in an image. "Why though?" I hear you ask. Well, why not?</p>
 				<br>
 
 				<div id="Sidenav" class="sidenav">
-  				<a href="#" id="contact"><img src="/imgs/tooltips.png"></a>
+  				<a href="#" id="contact"><img src="/imgs/tooltips2.png"></a>
 				</div>
 				<br><br><br>
-				<center><img class="a" src="/imgs/swagnyan.gif" alt="Epic Nyan Cat" width="512" height="288"></center>
+				<center><img class="a" src="/imgs/doge.gif" alt="Epic Doge" width="512" height="288"></center>
 
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-				<script src="konami.js"></script>
+				<script src="/cheatsactivated/konami.js"></script>
 	<br>
 	<!--upload photo-->
 	<center>
 		<div class="upload-btn-wrapper">
-			<img src="/imgs/point.png" width="20" height="20">  <button class="btn">Choose picture</button>
+			<img src="/imgs/point2.png" width="20" height="20">  <button class="btn">Choose picture</button>
 				<form action="" enctype="multipart/form-data" method="post">
 					<input id="file" name="file" type="file" />
 		</div>  
@@ -62,12 +62,12 @@
 				</form>
 				<br>
 		<div class="upload-btn-wrapper">
-		<img src="/imgs/point.png" width="20" height="20">  <button class="btn" id='script' name="scriptbutton" value="Run Script" onclick="goPython()">Run Script</button>
+		<img src="/imgs/point2.png" width="20" height="20">  <button class="btn" id='script' name="scriptbutton" value="Run Script" onclick="goPython()">Run Script</button>
 				<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 				<script>
 					function goPython(){
 						$.ajax({
-						url: "cat face detection.py",
+						url: "dog face detection.py",
 						context: document.body
 						}).done(function() {
 						alert('finished python script');;
@@ -91,7 +91,7 @@
 		if (in_array($file_ext,$allowed_file_types) && ($filesize < 200000))
 		{	
 			// Rename file
-				move_uploaded_file($_FILES["file"]["tmp_name"], "catpic" . $file_ext);
+				move_uploaded_file($_FILES["file"]["tmp_name"], "dogpic" . $file_ext);
 				echo '<br><p style="color:white; font-family: Arial; text-align:center"><b>File uploaded successfully.</b></p><br>';		
 			}
 		}

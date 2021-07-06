@@ -1,4 +1,5 @@
 var Konami = Konami || {};
+var audio = new Audio('easteregg.mp3');
 
 Konami.key = '38384040373937396665';
 
@@ -8,7 +9,7 @@ Konami.onCode = function(callback) {
         input += ("" + e.keyCode);
         if (input === Konami.key) {
             if(typeof callback == 'undefined') {
-                return   window.location.replace("/cheatsactivated/cheatsactivated.php");
+                return   audio.play();
             }
             else {
                 return callback();
