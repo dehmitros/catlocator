@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CatLocator69420</title>
+    <title>DogLocator69420</title>
 	<style>
 		#Sidenav a {
         position: absolute;
@@ -140,8 +140,8 @@
 	<br>
 				
 		<center><audio controls loop >
-		<source src="/song.mp3" type="audio/ogg">
-		<source src="/song.mp3" type="audio/mpeg">
+		<source src="/cheatsactivated/song.mp3" type="audio/ogg">
+		<source src="/cheatsactivated/song.mp3" type="audio/mpeg">
 		</audio></center>
 	
 	<br>
