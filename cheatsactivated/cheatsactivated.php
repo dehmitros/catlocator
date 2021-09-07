@@ -52,12 +52,13 @@
 	<!--upload photo-->
 	<center>
 		<div class="upload-btn-wrapper">
-			<img src="/imgs/point2.png" width="20" height="20">  <button class="btn">Choose picture</button>
+			<img src="/imgs/point2.png" width="20" height="20"> <button class="btn">Choose picture</button>
 				<form action="" enctype="multipart/form-data" method="post">
 					<input id="file" name="file" type="file" />
-		</div>  
+		</div>
+		<br>  
 		<div class="upload-btn-wrapper">
-		<button class="btn" id="Submit" name="submit" type="submit" value="Submit picture">Upload!</button>
+		<img src="/imgs/point2.png" width="20" height="20"> <button class="btn" id="Submit" name="submit" type="submit" value="Submit picture">Upload!</button>
 		</div>
 				</form>
 				<br>
